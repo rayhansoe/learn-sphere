@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "269c",
+      "name": "andi",
+      "email": "andi@mail.com",
+      "age": 18,
+      "address": "Bandung"
+    },
+    {
+      "id": "6278",
+      "name": "beatrice",
+      "email": "beatrice@mail.com",
+      "age": 18,
+      "address": "Bandung"
+    },
+    {
+      "id": "cbb8",
+      "name": "cindy",
+      "email": "cindy@mail.com",
+      "age": 18,
+      "address": "Bandung"
+    }
+  ],
+  "articles": [
+    {
+      "id": "a712",
+      "title": "Ini Blog Pertama",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic maxime ipsa id modi. Voluptas modi asperiores odio deleniti quae esse quam voluptate quia quaerat laborum, iure, aliquam cum et nam earum eos distinctio, suscipit similique ipsa assumenda? Earum cum quasi cupiditate commodi quod. Esse alias veritatis ipsam nisi eligendi animi sapiente? Ea nostrum vel delectus ducimus nisi facilis tenetur harum magnam ex temporibus suscipit odit quos sequi accusantium praesentium perferendis illum voluptate, dolore laboriosam quia quaerat qui deleniti. Maiores dolorem accusamus error dolorum doloribus id fugit sed quos labore similique iure repudiandae ut est distinctio, voluptatem saepe aperiam voluptatum. Officiis!"
+    },
+    {
+      "id": "b772",
+      "title": "Ini Blog Kedua",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic maxime ipsa id modi. Voluptas modi asperiores odio deleniti quae esse quam voluptate quia quaerat laborum, iure, aliquam cum et nam earum eos distinctio, suscipit similique ipsa assumenda? Earum cum quasi cupiditate commodi quod. Esse alias veritatis ipsam nisi eligendi animi sapiente? Ea nostrum vel delectus ducimus nisi facilis tenetur harum magnam ex temporibus suscipit odit quos sequi accusantium praesentium perferendis illum voluptate, dolore laboriosam quia quaerat qui deleniti. Maiores dolorem accusamus error dolorum doloribus id fugit sed quos labore similique iure repudiandae ut est distinctio, voluptatem saepe aperiam voluptatum. Officiis!"
+    },
+    {
+      "id": "1cdf",
+      "title": "Ini Blog Ketiga",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic maxime ipsa id modi. Voluptas modi asperiores odio deleniti quae esse quam voluptate quia quaerat laborum, iure, aliquam cum et nam earum eos distinctio, suscipit similique ipsa assumenda? Earum cum quasi cupiditate commodi quod. Esse alias veritatis ipsam nisi eligendi animi sapiente? Ea nostrum vel delectus ducimus nisi facilis tenetur harum magnam ex temporibus suscipit odit quos sequi accusantium praesentium perferendis illum voluptate, dolore laboriosam quia quaerat qui deleniti. Maiores dolorem accusamus error dolorum doloribus id fugit sed quos labore similique iure repudiandae ut est distinctio, voluptatem saepe aperiam voluptatum. Officiis!"
+    },
+    {
+      "id": "0b6c",
+      "title": "Ini Blog ke-Empat looo",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic maxime ipsa id modi. Voluptas modi asperiores odio deleniti quae esse quam voluptate quia quaerat laborum, iure, aliquam cum et nam earum eos distinctio, suscipit similique ipsa assumenda? Earum cum quasi cupiditate commodi quod. Esse alias veritatis ipsam nisi eligendi animi sapiente? Ea nostrum vel delectus ducimus nisi facilis tenetur harum magnam ex temporibus suscipit odit quos sequi accusantium praesentium perferendis illum voluptate, dolore laboriosam quia quaerat qui deleniti. Maiores dolorem accusamus error dolorum doloribus id fugit sed quos labore similique iure repudiandae ut est distinctio, voluptatem saepe aperiam voluptatum. Officiis!"
+    },
+    {
+      "id": "41ee",
+      "title": "Ini Blog kelima",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic maxime ipsa id modi. Voluptas modi asperiores odio deleniti quae esse quam voluptate quia quaerat laborum, iure, aliquam cum et nam earum eos distinctio, suscipit similique ipsa assumenda? Earum cum quasi cupiditate commodi quod. Esse alias veritatis ipsam nisi eligendi animi sapiente? Ea nostrum vel delectus ducimus nisi facilis tenetur harum magnam ex temporibus suscipit odit quos sequi accusantium praesentium perferendis illum voluptate, dolore laboriosam quia quaerat qui deleniti. Maiores dolorem accusamus error dolorum doloribus id fugit sed quos labore similique iure repudiandae ut est distinctio, voluptatem saepe aperiam voluptatum. Officiis!"
+    },
+    {
+      "id": "53ab",
+      "title": "Ini Blog ke-6",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic maxime ipsa id modi. Voluptas modi asperiores odio deleniti quae esse quam voluptate quia quaerat laborum, iure, aliquam cum et nam earum eos distinctio, suscipit similique ipsa assumenda? Earum cum quasi cupiditate commodi quod. Esse alias veritatis ipsam nisi eligendi animi sapiente? Ea nostrum vel delectus ducimus nisi facilis tenetur harum magnam ex temporibus suscipit odit quos sequi accusantium praesentium perferendis illum voluptate, dolore laboriosam quia quaerat qui deleniti. Maiores dolorem accusamus error dolorum doloribus id fugit sed quos labore similique iure repudiandae ut est distinctio, voluptatem saepe aperiam voluptatum. Officiis!"
+    },
+    {
+      "id": "44eb",
+      "title": "Ini Blog ke-7",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic maxime ipsa id modi. Voluptas modi asperiores odio deleniti quae esse quam voluptate quia quaerat laborum, iure, aliquam cum et nam earum eos distinctio, suscipit similique ipsa assumenda? Earum cum quasi cupiditate commodi quod. Esse alias veritatis ipsam nisi eligendi animi sapiente? Ea nostrum vel delectus ducimus nisi facilis tenetur harum magnam ex temporibus suscipit odit quos sequi accusantium praesentium perferendis illum voluptate, dolore laboriosam quia quaerat qui deleniti. Maiores dolorem accusamus error dolorum doloribus id fugit sed quos labore similique iure repudiandae ut est distinctio, voluptatem saepe aperiam voluptatum. Officiis!"
+    }
+  ]
+}
