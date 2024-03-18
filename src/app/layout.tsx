@@ -19,9 +19,6 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 
-	console.log('rerender root layout');
-	
-
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body

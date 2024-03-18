@@ -1,10 +1,14 @@
+"use client";
+
 import Link from "next/link";
 
-import { buttonVariants } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/icons";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { siteConfig } from "@/config/site";
 import { NavBar } from "./NavBar";
+import { Menu } from "lucide-react";
+import { MobileMenu } from "./mobile-menu";
 
 export function SiteHeader() {
 	return (
@@ -25,6 +29,7 @@ export function SiteHeader() {
 							</div>
 						</Link>
 						<ThemeToggle />
+						<MobileMenu />
 					</nav>
 				</div>
 			</div>

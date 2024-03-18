@@ -5,10 +5,6 @@ import React from "react";
 export default function HomeLayout({
 	children,
 }: Readonly<{ children: React.ReactNode }>) {
-
-	console.log('rerender blog template');
-	
-
 	return (
 		<ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 			<div className="relative flex min-h-screen flex-col">
