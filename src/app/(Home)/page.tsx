@@ -1,13 +1,15 @@
-import { getUsers } from "@/lib/users";
+import About from "@/components/pages/home/about";
+import Hero from "@/components/pages/home/hero";
+import Products from "@/components/pages/home/products";
+import Testimonials from "@/components/pages/home/testimonials";
 
 export default async function Home() {
-	// const users = await getUsers();
 	return (
 		<>
-			<div className="max-w-sm h-full mx-auto">
-				<h1>Hello world</h1>
-				{/* <p>{JSON.stringify(users)}</p> */}
-			</div>
+			<Hero />
+			<About />
+			<Products />
+			<Testimonials />
 		</>
 	);
 }

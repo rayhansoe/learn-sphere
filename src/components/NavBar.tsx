@@ -64,8 +64,8 @@ export function NavigationMenuDemo() {
 				<NavigationMenuItem>
 					<NavigationMenuTrigger>Products</NavigationMenuTrigger>
 					<NavigationMenuContent>
-						<ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
-							<li className="row-span-3">
+						<div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
+							<div className="row-span-3">
 								<Link
 									className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
 									href="/"
@@ -80,8 +80,8 @@ export function NavigationMenuDemo() {
 										</>
 									</NavigationMenuLink>
 								</Link>
-							</li>
-							<li className="row-span-3">
+							</div>
+							<div className="row-span-3">
 								<Link
 									className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
 									href="/"
@@ -98,15 +98,15 @@ export function NavigationMenuDemo() {
 										</>
 									</NavigationMenuLink>
 								</Link>
-							</li>
-						</ul>
+							</div>
+						</div>
 					</NavigationMenuContent>
 				</NavigationMenuItem>
 				<NavigationMenuItem>
 					<NavigationMenuTrigger>Company</NavigationMenuTrigger>
 					<NavigationMenuContent>
-						<ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
-							<li className="row-span-3">
+						<div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
+							<div className="row-span-3">
 								<Link
 									className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
 									href="/"
@@ -121,8 +121,8 @@ export function NavigationMenuDemo() {
 										</>
 									</NavigationMenuLink>
 								</Link>
-							</li>
-							<li className="row-span-3">
+							</div>
+							<div className="row-span-3">
 								<Link
 									className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
 									href="/"
@@ -137,8 +137,8 @@ export function NavigationMenuDemo() {
 										</>
 									</NavigationMenuLink>
 								</Link>
-							</li>
-						</ul>
+							</div>
+						</div>
 					</NavigationMenuContent>
 				</NavigationMenuItem>
 				<NavigationMenuItem>
@@ -158,7 +158,7 @@ const ListItem = React.forwardRef<
 	React.ComponentPropsWithoutRef<"a">
 >(({ className, title, children, ...props }, ref) => {
 	return (
-		<li>
+		<div>
 			<NavigationMenuLink asChild>
 				<a
 					ref={ref}
@@ -174,7 +174,7 @@ const ListItem = React.forwardRef<
 					</p>
 				</a>
 			</NavigationMenuLink>
-		</li>
+		</div>
 	);
 });
 ListItem.displayName = "ListItem";
@@ -184,8 +184,8 @@ export function NavBar({ items }: MainNavProps) {
 		<div className="flex gap-6 md:gap-10">
 			<Link href="/" className="flex items-center space-x-2">
 				{/* <Icons.logo className="h-6 w-6" /> */}
-				<span className="inline-block font-extrabold text-yellow-500/70 text-lg dark:text-amber-200">
-					<span className="text-blue-900 dark:text-sky-100">Learn</span>Sphere
+				<span className="inline-block font-extrabold  text-lg text-yellow-500/70 dark:text-amber-200">
+					<span className="text-blue-950 dark:text-sky-100">Learn</span>Sphere
 				</span>
 			</Link>
 			<NavigationMenuDemo />

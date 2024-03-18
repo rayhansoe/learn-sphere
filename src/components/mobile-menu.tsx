@@ -24,27 +24,27 @@ export function MobileMenu() {
 						<AccordionItem className="dark:border-b-slate-300/40" value="item-1">
 							<AccordionTrigger>Products</AccordionTrigger>
 							<AccordionContent>
-								<ul className="ml-2 flex flex-col gap-2 font-light text-slate-50/50">
-									<li className="hover:text-slate-50 hover:underline">
+								<div className="ml-2 flex flex-col gap-2 font-light text-slate-50/50">
+									<div className="hover:text-slate-50 hover:underline">
 										<Link href="/learning-buddy">Learning Buddy</Link>
-									</li>
-									<li className="hover:text-slate-50 hover:underline">
+									</div>
+									<div className="hover:text-slate-50 hover:underline">
 										<Link href="/skillsphere-academy">SkillSphere Academy</Link>
-									</li>
-								</ul>
+									</div>
+								</div>
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem className="dark:border-b-slate-300/40" value="item-2">
 							<AccordionTrigger>Company</AccordionTrigger>
 							<AccordionContent>
-								<ul className="ml-2 flex flex-col gap-2 font-light text-slate-50/50">
-									<li className="hover:text-slate-50 hover:underline">
+								<div className="ml-2 flex flex-col gap-2 font-light text-slate-50/50">
+									<div className="hover:text-slate-50 hover:underline">
 										<Link href="/about-us">About Us</Link>
-									</li>
-									<li className="hover:text-slate-50 hover:underline">
+									</div>
+									<div className="hover:text-slate-50 hover:underline">
 										<Link href="/teams">Teams</Link>
-									</li>
-								</ul>
+									</div>
+								</div>
 							</AccordionContent>
 						</AccordionItem>
 						<AccordionItem
