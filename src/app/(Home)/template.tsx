@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import { SiteHeader } from "@/components/site-header";
 import { ThemeProvider } from "@/components/theme-provider";
 import React from "react";
@@ -10,6 +11,7 @@ export default function HomeLayout({
 			<div className="relative flex min-h-screen flex-col">
 				<SiteHeader />
 				<div className="flex-1">{children}</div>
+				<Footer />
 			</div>
 		</ThemeProvider>
 	);
