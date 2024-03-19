@@ -24,11 +24,11 @@ export function MobileMenu() {
 						<AccordionItem className="dark:border-b-slate-300/40" value="item-1">
 							<AccordionTrigger>Products</AccordionTrigger>
 							<AccordionContent>
-								<div className="ml-2 flex flex-col gap-2 font-light text-slate-50/50">
-									<div className="hover:text-slate-50 hover:underline">
+								<div className="ml-2 flex flex-col gap-2 font-light">
+									<div className="hover:underline">
 										<Link href="/learning-buddy">Learning Buddy</Link>
 									</div>
-									<div className="hover:text-slate-50 hover:underline">
+									<div className="hover:underline">
 										<Link href="/skillsphere-academy">SkillSphere Academy</Link>
 									</div>
 								</div>
@@ -37,11 +37,11 @@ export function MobileMenu() {
 						<AccordionItem className="dark:border-b-slate-300/40" value="item-2">
 							<AccordionTrigger>Company</AccordionTrigger>
 							<AccordionContent>
-								<div className="ml-2 flex flex-col gap-2 font-light text-slate-50/50">
-									<div className="hover:text-slate-50 hover:underline">
+								<div className="ml-2 flex flex-col gap-2 font-light">
+									<div className="hover:underline">
 										<Link href="/about-us">About Us</Link>
 									</div>
-									<div className="hover:text-slate-50 hover:underline">
+									<div className="hover:underline">
 										<Link href="/teams">Teams</Link>
 									</div>
 								</div>

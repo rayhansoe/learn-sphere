@@ -15,3 +15,22 @@ export type Props = {
   params: { id: string }
   searchParams: { [key: string]: string | string[] | undefined }
 }
+
+export interface Person {
+  cell: string
+  name: {
+    first: string
+    last: string
+  }
+  email: string
+  phone: string,
+  picture: {
+    large: string
+    medium: string
+    thumbnail: string
+  }
+}
+
+export interface Team {
+  results: Person[]
+}

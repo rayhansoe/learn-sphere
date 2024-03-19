@@ -20,6 +20,10 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        "avatar": "-4px 4px 0px 0px rgba(0,33,78,1),-8px 8px 0px 0px rgba(0,22,54,1),-12px 12px 0px 0px rgba(255,245,123,1),-16px 16px 0px 0px rgba(249,244,217,1)",
+        "avatar-dark": "-4px 4px 0px 0px rgba(0,33,78,1), -8px 8px 0px 0px rgba(0,22,54,1), -12px 12px 0px 0px rgba(255,245,123,1), -16px 16px 0px 0px rgba(255,218,0,1)",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
