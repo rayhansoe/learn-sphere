@@ -9,7 +9,7 @@ export default async function Teams() {
 
 	return (
 		<main className="container max-w-4xl flex flex-col bg-slate-50 dark:bg-slate-950">
-			<section className="safe-paddings my-6 lg:my-12 xl:my-20">
+			<section className="safe-paddings my-6 md:my-12 lg:my-16 xl:my-20 ">
 				<h1 className="text-4xl font-bold leading-dense text-black dark:text-white xl:text-5xl">
 					Meet The Team
 				</h1>
