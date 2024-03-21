@@ -22,7 +22,7 @@ export default async function Teams() {
 					grow.
 				</p>
 				<ul className="flex flex-col gap-4 mt-16 md:grid grid-cols-2 gap-x-4 gap-y-9">
-					{team?.results?.map((person) => {
+					{team.results.map((person) => {
 						return (
 							<li className=" ml-4 mb-4 flex gap-3" key={person.cell}>
 								<Image

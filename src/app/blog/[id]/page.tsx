@@ -1,5 +1,5 @@
 import { getArticle, getArticles } from "@/lib/articles";
-import { Props } from "@/types";
+import { Props } from "@/types/types";
 import type { Metadata, ResolvingMetadata } from "next";
 
 export const revalidate = 3600

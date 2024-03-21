@@ -1,5 +1,5 @@
 import { getArticles } from "@/lib/articles";
-import { IArticle } from "@/types";
+import { IArticle } from "@/types/types";
 import { Metadata } from "next";
 import Link from "next/link";
 

@@ -34,3 +34,14 @@ export interface Person {
 export interface Team {
   results: Person[]
 }
+
+export interface IFooter {
+  links: IFooterLinks
+}
+
+export type IFooterLink = {
+  href: string
+  title: string
+} 
+
+export type IFooterLinks = IFooterLink[] 

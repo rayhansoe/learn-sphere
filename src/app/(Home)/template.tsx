@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import { SiteHeader } from "@/components/site-header";
 import { ThemeProvider } from "@/components/theme-provider";
+import { AllLinks } from "@/types/constants";
 import React from "react";
 
 export default function HomeLayout({
@@ -11,7 +12,7 @@ export default function HomeLayout({
 			<div className="relative flex min-h-screen flex-col">
 				<SiteHeader />
 				<div className="flex-1">{children}</div>
-				<Footer />
+				<Footer links={AllLinks} />
 			</div>
 		</ThemeProvider>
 	);

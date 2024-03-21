@@ -7,10 +7,10 @@ export default function Hero() {
   return (
     <div>
 				{/* Hero */}
-				<section className="container sm:max-w-3xl lg:max-w-6xl my-12 flex flex-col gap-8">
+				<section data-cy="hero" className="container sm:max-w-3xl lg:max-w-6xl my-12 flex flex-col gap-8">
 					{/* section 1 */}
 					<div className="flex flex-col gap-8 md:gap-12">
-						<h1 className="text-3xl font-bold md:text-5xl lg:text-7xl lg:max-w-5xl">
+						<h1 data-cy="hero-tagline" className="text-3xl font-bold md:text-5xl lg:text-7xl lg:max-w-5xl">
 							Upgrade Cara Belajar Kamu Bersama{" "}
 							<span className="text-yellow-500/70 dark:text-amber-200 underline hover:underline-offset-8">
 								<span className="text-blue-950 dark:text-white">Learn</span>Sphere

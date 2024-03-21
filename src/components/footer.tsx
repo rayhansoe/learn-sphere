@@ -1,42 +1,17 @@
+import { IFooter } from "@/types/types";
 import Link from "next/link";
 
-const AllLinks = [
-	{
-		title: "Home",
-		href: "/",
-	},
-	{
-		title: "Learning Buddy",
-		href: "/",
-	},
-	{
-		title: "SkillSphere Academy",
-		href: "/skillsphere-academy",
-	},
-	{
-		title: "About Us",
-		href: "/about",
-	},
-	{
-		title: "Our Teams",
-		href: "/team",
-	},
-	{
-		title: "Blog",
-		href: "/",
-	},
-];
-
-export default function Footer() {
+export default function Footer({ links }: IFooter) {
 	return (
-		<div className="mt-auto border-t border-slate-300/95 dark:border-slate-800/95">
+		<div data-cy="footer" className="mt-auto border-t border-slate-300/95 dark:border-slate-800/95">
 			<div className="container py-6">
 				<ul className="flex flex-wrap gap-3 justify-center text-xs font-light text-slate-500 sm:text-sm">
-					{AllLinks.map((item, index) => {
+					{links.map((item, index) => {
 						return (
 							<>
-								<li key={index}>
+								<li key={index} data-cy="footer-item">
 									<Link
+										data-cy="footer-link"
 										className="hover:underline dark:hover:text-slate-400"
 										href={item.href}
 									>

@@ -1,4 +1,4 @@
-import { IArticle } from '@/types';
+import { IArticle } from '@/types/types';
 
 export async function getArticles(): Promise<IArticle[]> {
   const res = await fetch('http://localhost:8000/articles')

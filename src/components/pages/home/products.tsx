@@ -8,7 +8,7 @@ export default function Products() {
 				<section className="container sm:max-w-3xl md:max-w-7xl my-12 flex flex-col  gap-10">
 					<h1 className="text-3xl font-bold text-center">Products and Services</h1>
 					<div className="flex flex-wrap gap-8 justify-center lg:gap-8">
-						<Card className="max-w-lg md:max-w-md lg:max-w-sm">
+						<Card className="max-w-lg md:max-w-[328px] lg:max-w-sm">
 							<Link href={"/"}>
 								<CardHeader>
 									<CardTitle>SkillSphere Academy</CardTitle>
@@ -24,7 +24,7 @@ export default function Products() {
 								</CardFooter>
 							</Link>
 						</Card>
-						<Card className="max-w-lg md:max-w-md lg:max-w-sm">
+						<Card className="max-w-lg md:max-w-[328px] lg:max-w-sm">
 							<Link href={"/"}>
 								<CardHeader>
 									<CardTitle>Learning Buddy</CardTitle>
@@ -40,7 +40,7 @@ export default function Products() {
 								</CardFooter>
 							</Link>
 						</Card>
-						<Card className="max-w-lg md:max-w-md lg:max-w-sm">
+						<Card className="max-w-lg md:max-w-[328px] lg:max-w-sm">
 							<Link href={"/"}>
 								<CardHeader>
 									<CardTitle>Learning Space</CardTitle>
@@ -56,7 +56,7 @@ export default function Products() {
 								</CardFooter>
 							</Link>
 						</Card>
-						<Card className="max-w-lg md:max-w-md lg:max-w-sm">
+						<Card className="max-w-lg md:max-w-[328px] lg:max-w-sm">
 							<Link href={"/"}>
 								<CardHeader>
 									<CardTitle>Online Courses</CardTitle>
@@ -73,7 +73,7 @@ export default function Products() {
 								</CardFooter>
 							</Link>
 						</Card>
-						<Card className="max-w-lg md:max-w-md lg:max-w-sm">
+						<Card className="max-w-lg md:max-w-[328px] lg:max-w-sm">
 							<Link href={"/"}>
 								<CardHeader>
 									<CardTitle>Evaly.io</CardTitle>
