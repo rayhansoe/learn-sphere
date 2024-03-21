@@ -49,8 +49,8 @@ export default function Testimonials() {
 								<CardContent className="mt-5">
 									<p>
 										Background saya SEO specialist, ingin tambah ilmu tentang Fullstack JS
-										dan ketemulah Devscale Indonesia. Dan ini adalah investasi terbaik
-										saya di tahun 2023, tidak kecewa karena langsung di mentorin mas Indra
+										dan ketemulah LearnSphere Indonesia. Dan ini adalah investasi terbaik
+										saya di tahun 2023, tidak kecewa karena langsung di mentorin mas Rayhan
 										yg gak pelit ilmu dan semangat buat mengajarnya bikin saya gak
 										menyerah untuk kejar mimpi saya untuk jadi lebih baik lagi!
 										Recommended polll!
@@ -68,7 +68,7 @@ export default function Testimonials() {
 							<Card>
 								<CardContent className="mt-5">
 									<p>
-										Mas Indra benar-benar mendedikasikan dirinya sebagai mentor. Beliau
+										Mas Rayhan benar-benar mendedikasikan dirinya sebagai mentor. Beliau
 										mengajar dengan penuh semangat sehingga student juga ikut semangat.
 										Beliau benar-benar mentor yang kompeten. Materi yang sulit sekalipun
 										dapat disampaikan dengan cara yang mudah dipahami.
@@ -102,8 +102,8 @@ export default function Testimonials() {
 									<p>
 										Berawal dari iseng-iseng ikutan tanpa ekspektasi apapun, berujung jadi
 										salah satu best investment saya. Paling suka sama teman-teman, mentor,
-										dan lingkungan devscale yang supportive banget, yang menurut saya
-										jarang ada di tempat lain. Thank you Devscale!
+										dan lingkungan LearnSphere yang supportive banget, yang menurut saya
+										jarang ada di tempat lain. Thank you LearnSphere!
 									</p>
 								</CardContent>
 								<CardFooter>
@@ -140,7 +140,7 @@ export default function Testimonials() {
 										sebelumnya bootcamp ini bisa bantu boost pemahaman saya bukan hanya
 										dari sisi teknikal namun pada sisi fundamental juga. Suprisingly
 										materi-materi di bootcamp ini bisa langsung saya implementasi di real
-										case di industri. Big thanks buat devscale dan mas indra terutama{" "}
+										case di industri. Big thanks buat LearnSphere dan mas Rayhan terutama{" "}
 										{":)"}
 									</p>
 								</CardContent>
@@ -158,7 +158,7 @@ export default function Testimonials() {
 										yang saya pelajari. Tiap kelas isinya daging semua. I am not being
 										excessive, but that&apos;s how I feel. Mentornya sangat berpengalaman,
 										full of knowledge, baik dan peduli dengan student-nya. Sangat worth
-										it! Thanks u Mas Indra!
+										it! Thanks u Mas Rayhan!
 									</p>
 								</CardContent>
 								<CardFooter>

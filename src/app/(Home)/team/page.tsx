@@ -50,7 +50,7 @@ export default async function Teams() {
 												</Link>
 											</Button>
 											<Button variant="default" size="icon" className="rounded-full">
-												<Link href={`https://github.com/rayhansoe`}>
+												<Link href={`https://github.com/rayhansoe`} target="_blank" >
 												<Github className="h-5 w-5" />
 												<span className="sr-only">Github Link</span>
 												</Link>

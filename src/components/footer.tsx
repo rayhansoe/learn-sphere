@@ -19,7 +19,7 @@ const AllLinks = [
 	},
 	{
 		title: "Our Teams",
-		href: "/teams",
+		href: "/team",
 	},
 	{
 		title: "Blog",
