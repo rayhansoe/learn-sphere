@@ -1,2 +1,0 @@
-pnpm run cy:run --component
-pnpm run cy:run 
