@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import YoutubeIframe from "@/components/youtube-iframe";
 import { getOurTeam } from "@/lib/team";
 import { Github, Mail, Phone } from "lucide-react";
 import { Courgette, Bitter } from "next/font/google";
@@ -137,6 +138,7 @@ export default async function About() {
 				</ol>
 			</section>
 
+			{/* Teams */}
 			<section className="safe-paddings my-6 md:my-12 lg:my-16 xl:my-28 ">
 				<h3 className="text-2xl font-bold leading-dense text-black dark:text-white xl:text-3xl">
 					Meet The Team
@@ -196,10 +198,12 @@ export default async function About() {
 			</section>
 
 			{/* Cultures */}
-			<section className="flex flex-col gap-6 my-6 md:my-12 lg:my-16 xl:my-28">
-				<div className="flex flex-col gap-6">
-					<h3>Explore our team’s and cultures in Barcelona</h3>
-					<div className="flex flex-col">
+			<section className="flex flex-col gap-6 my-6 md:my-12 lg:my-16 lg:flex-row lg:gap-10 lg:max-h-full xl:my-28">
+				<div className="flex flex-col gap-6 lg:w-1/2 lg:order-2">
+					<h3 className="text-2xl font-bold leading-dense text-black dark:text-white xl:text-3xl">
+						Explore our team&apos;s and cultures in Barcelona
+					</h3>
+					<div className="flex flex-col gap-4 text-slate-600 dark:text-slate-300">
 						<p>
 							Join us on a visual tour through our offsite gathering in Barcelona,
 							explore the best moments, thrilling activities, and bonding experiences.
@@ -214,15 +218,16 @@ export default async function About() {
 						</p>
 					</div>
 				</div>
+				<YoutubeIframe
+					className="ml-4 shadow-avatar dark:shadow-avatar-dark rounded-md lg:w-1/2 lg:h-fit lg:items-start"
+					embedId="ieGjj-f0Br0?si=zbG2CrxbM1bGwdC2"
+					isDocPost={false}
+				/>
 			</section>
 		</main>
 	);
 }
 
-function name() {
-	
-}
+function name() {}
 
-const myFUnc = () => {
-	
-}
+const myFUnc = () => {};
