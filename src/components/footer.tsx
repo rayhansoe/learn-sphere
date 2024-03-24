@@ -9,7 +9,7 @@ export default function Footer({ links }: IFooter) {
 					{links.map((item, index) => {
 						return (
 							<>
-								<li key={index} data-cy="footer-item">
+								<li key={`${index}-${item.title}`} data-cy="footer-item">
 									<Link
 										data-cy="footer-link"
 										className="hover:underline dark:hover:text-slate-400"
