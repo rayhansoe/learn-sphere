@@ -98,7 +98,7 @@ export default async function About() {
 						</time>
 						<p className="text-base font-normal text-gray-500 dark:text-gray-400">
 							LearnSphere expanded its offerings beyond online courses, establishing
-							collaborative learning spaces and launching SkillSphere Academy to cater
+							collaborative learning spaces and launching LearnSphere Academy to cater
 							to diverse learning needs.
 						</p>
 					</li>
@@ -126,97 +126,6 @@ export default async function About() {
 							leader in the education sector and earning recognition for its innovative
 							approach to learning.
 						</p>
-					</li>
-				</ol>
-
-				<ol className="hidden items-center">
-					<li className="relative mb-6 sm:mb-0">
-						<div className="flex items-center">
-							<div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-								<svg
-									className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-									aria-hidden="true"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="currentColor"
-									viewBox="0 0 20 20"
-								>
-									<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-								</svg>
-							</div>
-							<div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-						</div>
-						<div className="mt-3 sm:pe-8">
-							<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-								Launch LearnSphere
-							</h3>
-							<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-								Released on May 2, 2020
-							</time>
-							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								LearnSphere introduced its groundbreaking online learning platform,
-								providing accessible and interactive educational resources to learners
-								worldwide.
-							</p>
-						</div>
-					</li>
-					<li className="relative mb-6 sm:mb-0">
-						<div className="flex items-center">
-							<div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-								<svg
-									className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-									aria-hidden="true"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="currentColor"
-									viewBox="0 0 20 20"
-								>
-									<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-								</svg>
-							</div>
-							<div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-						</div>
-						<div className="mt-3 sm:pe-8">
-							<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-								Expansion of Learning Ecosystem
-							</h3>
-							<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-								Released on September 23, 2021
-							</time>
-							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								LearnSphere expanded its offerings beyond online courses, establishing
-								collaborative learning spaces and launching SkillSphere Academy to cater
-								to diverse learning needs.
-							</p>
-						</div>
-					</li>
-					<li className="relative mb-6 sm:mb-0">
-						<div className="flex items-center">
-							<div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-								<svg
-									className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-									aria-hidden="true"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="currentColor"
-									viewBox="0 0 20 20"
-								>
-									<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-								</svg>
-							</div>
-							<div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-						</div>
-						<div className="mt-3 sm:pe-8">
-							<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-								Strategic Partnerships and Recognition
-							</h3>
-							<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-								Released on January 5, 2023
-							</time>
-							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								LearnSphere forged strategic partnerships with leading educational
-								institutions and technology providers, solidifying its position as a
-								leader in the education sector and earning recognition for its
-								innovative approach to learning.
-							</p>
-						</div>
 					</li>
 				</ol>
 			</section>
@@ -306,8 +215,7 @@ export default async function About() {
 				</div>
 				<video
 					src="video.mp4"
-					className="shadow-avatar dark:shadow-avatar-dark items-start w-1/2 h-min rounded-md"
-					autoPlay={true}
+					className="ml-4 mb-4 shadow-avatar dark:shadow-avatar-dark lg:items-start lg:w-1/2 h-min rounded-md"
 					muted
 					loop
 				/>
