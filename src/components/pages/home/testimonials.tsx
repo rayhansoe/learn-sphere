@@ -10,7 +10,7 @@ export default function Testimonials() {
 				<div className="lg:px-0 max-w-7xl m-auto mb-40">
 					<section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 						<div className="space-y-8">
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										I hope that many people are interested in and join this bootcamp to
@@ -28,7 +28,7 @@ export default function Testimonials() {
 									</div>
 								</CardFooter>
 							</Card>
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										Ini Bootcamp beneran kayak Gameshark jaman dulu. Dulu saya belajar
@@ -45,7 +45,7 @@ export default function Testimonials() {
 									</div>
 								</CardFooter>
 							</Card>
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										Background saya SEO specialist, ingin tambah ilmu tentang Fullstack JS
@@ -65,7 +65,7 @@ export default function Testimonials() {
 							</Card>
 						</div>
 						<div className="space-y-8 hidden md:block">
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										Mas Rayhan benar-benar mendedikasikan dirinya sebagai mentor. Beliau
@@ -81,7 +81,7 @@ export default function Testimonials() {
 									</div>
 								</CardFooter>
 							</Card>
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										keren, bener bener menguasai fundamental, bisa menjelaskan dgn bahasa
@@ -97,7 +97,7 @@ export default function Testimonials() {
 									</div>
 								</CardFooter>
 							</Card>
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										Berawal dari iseng-iseng ikutan tanpa ekspektasi apapun, berujung jadi
@@ -115,7 +115,7 @@ export default function Testimonials() {
 							</Card>
 						</div>
 						<div className="space-y-8 hidden lg:block">
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										I wholeheartedly recommend this bootcamp to anyone aspiring to acquire
@@ -132,7 +132,7 @@ export default function Testimonials() {
 									</div>
 								</CardFooter>
 							</Card>
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										Beyond my expectation. Saya ngerasa beruntung banget bisa ketemu
@@ -151,7 +151,7 @@ export default function Testimonials() {
 									</div>
 								</CardFooter>
 							</Card>
-							<Card>
+							<Card className="bg-slate-50/30 hover:bg-amber-50/50 dark:bg-slate-900 dark:hover:bg-opacity-80 shadow-md hover:shadow-lg cursor-pointer">
 								<CardContent className="mt-5">
 									<p>
 										Saya sangat bersyukur bisa bergabung di bootcamp ini. Banyak hal baru
