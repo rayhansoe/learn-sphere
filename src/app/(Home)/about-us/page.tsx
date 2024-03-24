@@ -21,7 +21,7 @@ export default async function About() {
 	return (
 		<main className="container flex flex-col bg-slate-50 dark:bg-slate-950">
 			<div
-				className={`${bitter.className} max-w-4xl mx-auto my-10 mt-32 flex flex-col gap-6 sm:flex-row sm:max-w-screen-sm lg:max-w-screen-lg lg:justify-between`}
+				className={`${bitter.className} max-w-4xl mx-auto my-10 mt-32 flex flex-col gap-6 sm:flex-row sm:max-w-screen-sm lg:max-w-4xl lg:justify-between`}
 			>
 				<div className="flex flex-col  sm:w-1/3">
 					<h1 className={`${courgette.className} text-5xl`}>Letter</h1>
@@ -49,12 +49,12 @@ export default async function About() {
 			</div>
 
 			{/* Milestone */}
-			<section className="max-w-6xl mx-auto flex flex-col gap-6 my-6 md:my-12 lg:my-16 xl:my-28">
+			<section className="max-w-4xl mx-auto flex flex-col gap-6 my-6 md:my-12 lg:my-16 xl:my-28">
 				<h3 className="text-2xl font-bold leading-dense text-black dark:text-white xl:text-3xl">
 					Milestone
 				</h3>
 
-				<ol className="relative border-s border-gray-200 dark:border-gray-700 xl:hidden">
+				<ol className="relative border-s border-gray-200 dark:border-gray-700">
 					<li className="mb-10 ms-6">
 						<span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
 							<svg
@@ -74,7 +74,9 @@ export default async function About() {
 							Released on May 2, 2020
 						</time>
 						<p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-							LearnSphere introduced its groundbreaking online learning platform, providing accessible and interactive educational resources to learners worldwide.
+							LearnSphere introduced its groundbreaking online learning platform,
+							providing accessible and interactive educational resources to learners
+							worldwide.
 						</p>
 					</li>
 					<li className="mb-10 ms-6">
@@ -96,7 +98,9 @@ export default async function About() {
 							Released on September 23, 2021
 						</time>
 						<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-							LearnSphere expanded its offerings beyond online courses, establishing collaborative learning spaces and launching SkillSphere Academy to cater to diverse learning needs.
+							LearnSphere expanded its offerings beyond online courses, establishing
+							collaborative learning spaces and launching SkillSphere Academy to cater
+							to diverse learning needs.
 						</p>
 					</li>
 					<li className="ms-6">
@@ -118,12 +122,15 @@ export default async function About() {
 							Released on January 5, 2023
 						</time>
 						<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-							LearnSphere forged strategic partnerships with leading educational institutions and technology providers, solidifying its position as a leader in the education sector and earning recognition for its innovative approach to learning.
+							LearnSphere forged strategic partnerships with leading educational
+							institutions and technology providers, solidifying its position as a
+							leader in the education sector and earning recognition for its innovative
+							approach to learning.
 						</p>
 					</li>
 				</ol>
 
-				<ol className="hidden items-center xl:flex">
+				<ol className="hidden items-center">
 					<li className="relative mb-6 sm:mb-0">
 						<div className="flex items-center">
 							<div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
@@ -147,7 +154,9 @@ export default async function About() {
 								Released on May 2, 2020
 							</time>
 							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								LearnSphere introduced its groundbreaking online learning platform, providing accessible and interactive educational resources to learners worldwide.
+								LearnSphere introduced its groundbreaking online learning platform,
+								providing accessible and interactive educational resources to learners
+								worldwide.
 							</p>
 						</div>
 					</li>
@@ -174,7 +183,9 @@ export default async function About() {
 								Released on September 23, 2021
 							</time>
 							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								LearnSphere expanded its offerings beyond online courses, establishing collaborative learning spaces and launching SkillSphere Academy to cater to diverse learning needs.
+								LearnSphere expanded its offerings beyond online courses, establishing
+								collaborative learning spaces and launching SkillSphere Academy to cater
+								to diverse learning needs.
 							</p>
 						</div>
 					</li>
@@ -201,7 +212,10 @@ export default async function About() {
 								Released on January 5, 2023
 							</time>
 							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								LearnSphere forged strategic partnerships with leading educational institutions and technology providers, solidifying its position as a leader in the education sector and earning recognition for its innovative approach to learning.
+								LearnSphere forged strategic partnerships with leading educational
+								institutions and technology providers, solidifying its position as a
+								leader in the education sector and earning recognition for its
+								innovative approach to learning.
 							</p>
 						</div>
 					</li>
@@ -291,10 +305,12 @@ export default async function About() {
 						</p>
 					</div>
 				</div>
-				<YoutubeIframe
-					className="ml-4 shadow-avatar dark:shadow-avatar-dark rounded-md lg:w-1/2 lg:h-fit lg:items-start"
-					embedId="ieGjj-f0Br0?si=zbG2CrxbM1bGwdC2"
-					isDocPost={false}
+				<video
+					src="video.mp4"
+					className="shadow-avatar dark:shadow-avatar-dark items-start w-1/2 h-min rounded-md"
+					autoPlay={true}
+					muted
+					loop
 				/>
 			</section>
 		</main>
