@@ -19,6 +19,7 @@ import {
 	NavigationMenuTrigger,
 	navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { Badge } from "./ui/badge";
 
 export function NavigationMenuDemo() {
 	return (
@@ -27,7 +28,7 @@ export function NavigationMenuDemo() {
 				<NavigationMenuItem key={"products"}>
 					<NavigationMenuTrigger>Products</NavigationMenuTrigger>
 					<NavigationMenuContent>
-						<div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
+						{/* <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
 							<div className="row-span-3">
 								<Link
 									className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
@@ -52,7 +53,7 @@ export function NavigationMenuDemo() {
 									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
 										<>
 											<div className="mb-2 mt-4 text-lg font-medium">
-												SkillSphere Academy
+												LearnSphere Academy
 											</div>
 											<p className="text-sm leading-tight text-muted-foreground">
 												Beautifully designed components built with Radix UI and Tailwind
@@ -62,10 +63,106 @@ export function NavigationMenuDemo() {
 									</NavigationMenuLink>
 								</Link>
 							</div>
-						</div>
+						</div> */}
+						<ul className="grid gap-3 p-6 w-96 md:w-[500px] lg:w-[700px] lg:grid-cols-[.75fr_1fr]">
+							<li className="row-span-4" key={"learnsphere-academy"}>
+								<Link
+									className="flex h-full w-full select-none flex-col bg-slate-200 hover:bg-slate-200/80 dark:bg-slate-700/30 dark:hover:bg-slate-700/60 rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+									href="/courses"
+								>
+									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+										<>
+											<div className="flex justify-between">
+												<Icons.logo className="h-6 w-6" />
+												<Badge className="w-min bg-sky-900 shadow shadow-sky-900 dark:bg-blue-300 dark:shadow-blue-900 animate-pulse">
+													New
+												</Badge>
+											</div>
+											<h6 className="mb-2 mt-4 text-lg font-medium">Online Courses</h6>
+											<p className="text-sm leading-tight text-muted-foreground">
+												Beautifully designed components that you can copy and paste into
+												your apps. Accessible. Customizable. Open Source.
+											</p>
+										</>
+									</NavigationMenuLink>
+								</Link>
+							</li>
+							<li
+								key={"courses"}
+								className="opacity-70 p-3 bg-slate-100 dark:bg-slate-800/40 rounded-md"
+							>
+								<Link className=" cursor-default" href="#" legacyBehavior passHref>
+									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+										<>
+											<h6 className="mb-2 text-lg font-medium">
+												LearnSphere Academy<Badge className="opacity-40">soon</Badge>
+											</h6>
+											<p className="text-sm leading-tight text-muted-foreground">
+												Beautifully designed components built with Radix UI and Tailwind
+												CSS.
+											</p>
+										</>
+									</NavigationMenuLink>
+								</Link>
+							</li>
+							<li
+								key={"learning-buddy"}
+								className="opacity-70 p-3 bg-slate-100 dark:bg-slate-800/40 rounded-md"
+							>
+								<Link className=" cursor-default" href="#" legacyBehavior passHref>
+									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+										<>
+											<h6 className="mb-2 text-lg font-medium">
+												Learning Buddy <Badge className="opacity-40">soon</Badge>
+											</h6>
+											<p className="text-sm leading-tight text-muted-foreground">
+												Beautifully designed components built with Radix UI and Tailwind
+												CSS.
+											</p>
+										</>
+									</NavigationMenuLink>
+								</Link>
+							</li>
+							<li
+								key={"learning-space"}
+								className="opacity-70 p-3 bg-slate-100 dark:bg-slate-800/40 rounded-md"
+							>
+								<Link className=" cursor-default" href="#" legacyBehavior passHref>
+									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+										<>
+											<h6 className="mb-2 text-lg font-medium">
+												Learning Space <Badge className="opacity-40">soon</Badge>
+											</h6>
+											<p className="text-sm leading-tight text-muted-foreground">
+												Beautifully designed components built with Radix UI and Tailwind
+												CSS.
+											</p>
+										</>
+									</NavigationMenuLink>
+								</Link>
+							</li>
+							<li
+								key={"evaly"}
+								className="opacity-70 p-3 bg-slate-100 dark:bg-slate-800/40 rounded-md"
+							>
+								<Link className=" cursor-default" href="#" legacyBehavior passHref>
+									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+										<>
+											<h6 className="mb-2 text-lg font-medium">
+												Evaly.io <Badge className="opacity-40">soon</Badge>
+											</h6>
+											<p className="text-sm leading-tight text-muted-foreground">
+												Beautifully designed components built with Radix UI and Tailwind
+												CSS.
+											</p>
+										</>
+									</NavigationMenuLink>
+								</Link>
+							</li>
+						</ul>
 					</NavigationMenuContent>
 				</NavigationMenuItem>
-				<NavigationMenuItem  key={"company"}>
+				<NavigationMenuItem key={"company"}>
 					<NavigationMenuTrigger>Company</NavigationMenuTrigger>
 					<NavigationMenuContent>
 						<div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
