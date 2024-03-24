@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { getOurTeam } from "@/lib/team";
 import { Github, Mail, Phone } from "lucide-react";
+import { Metadata } from "next";
 import { Courgette, Bitter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,6 +15,10 @@ const bitter = Bitter({
 	weight: "400",
 	subsets: ["latin"],
 });
+
+export const metadata: Metadata = {
+	title: "About Us"
+}
 
 export default async function About() {
 	const team = await getOurTeam();

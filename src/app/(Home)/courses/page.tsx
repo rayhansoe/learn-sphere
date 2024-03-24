@@ -1,6 +1,7 @@
 import { Karla } from "next/font/google";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Testimonials from "@/components/pages/home/testimonials";
 import Image from "next/image";
 
@@ -8,6 +9,11 @@ const karla = Karla({
 	subsets: ["latin"],
 	weight: "700",
 });
+
+
+export const metadata: Metadata = {
+	title: "Courses"
+}
 
 export default function Page() {
 	return (

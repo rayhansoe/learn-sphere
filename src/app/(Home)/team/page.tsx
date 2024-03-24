@@ -1,8 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { getOurTeam } from "@/lib/team";
 import { Github, Mail, Phone } from "lucide-react";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+
+export const metadata: Metadata = {
+	title: "Our Team"
+}
 
 export default async function Teams() {
 	const team = await getOurTeam();
