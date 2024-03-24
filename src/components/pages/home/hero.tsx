@@ -17,7 +17,7 @@ export default function Hero() {
 							</span>
 						</h1>
 						<p className="text-base font-light text-slate-600 dark:text-slate-300 md:text-lg lg:text-xl lg:max-w-4xl">
-							Lebih dari 1200+ lulusan program SkillSphere Academy telah mendapatkan
+							Lebih dari 1200+ lulusan program LearnSphere Academy telah mendapatkan
 							pekerjaan. Dapatkan potongan subsidi hingga 9 juta rupiah untuk paket
 							pelatihan React dan Back-End Developer.
 							<br />{" "}
