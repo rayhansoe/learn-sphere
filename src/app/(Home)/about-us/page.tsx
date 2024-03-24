@@ -230,6 +230,8 @@ export default async function About() {
 									src={person.picture.large}
 									width={144}
 									height={144}
+									placeholder="blur"
+									priority
 									alt={`${person.name.first} ${person.name.last}`}
 								/>
 								<div className="flex flex-col gap-3 mt-1">
