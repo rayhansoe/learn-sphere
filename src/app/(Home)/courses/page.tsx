@@ -10,11 +10,11 @@ const karla = Karla({
 	weight: "700",
 });
 
-
 export const metadata: Metadata = {
 	title: "Courses",
-	description: "Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. Scrimba is the fun and easy way to learn web development."
-}
+	description:
+		"Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. Scrimba is the fun and easy way to learn web development.",
+};
 
 export default function Page() {
 	return (
@@ -48,18 +48,21 @@ export default function Page() {
 					</div>
 					{/* content 2 */}
 					<video
-						src="video-academy.mp4"
 						autoPlay
 						muted
 						loop
 						className="rounded-md shadow-avatar ml-4 mb-4 dark:shadow-avatar-dark xl:h-min xl:w-1/2 2xl:w-2/5"
-					/>
+					>
+						<source src="video-academy.mp4" type="video/mp4" />
+						<Image src={"/images/academy.png"} alt="academy placeholder" priority width={406} height={266} />
+					</video>
 				</section>
 			</main>
 
 			<section className="p-10 py-24 my-10 bg-sky-100 dark:bg-slate-900">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<Image
+						priority
 						src="/images/bootcamp-discord.webp"
 						alt="bootcamp-discord"
 						width={736}
@@ -92,6 +95,7 @@ export default function Page() {
 						</p>
 					</div>
 					<Image
+						priority
 						src="/images/1-1-calls.webp"
 						alt="1-1-calls"
 						width={736}
@@ -275,9 +279,8 @@ export default function Page() {
 								Get everything, forever.
 							</p>
 							<p className="mt-4 text-lg">
-								Get lifetime access to 500+ courses and every template available
-								today, plus any new content we add in the future for a simple one-time
-								price.
+								Get lifetime access to 500+ courses and every template available today,
+								plus any new content we add in the future for a simple one-time price.
 							</p>
 						</div>
 					</div>
@@ -641,8 +644,8 @@ export default function Page() {
 											<strong className="font-semibold text-slate-100">
 												Get access for your future
 											</strong>{" "}
-											— pro licenses include access for up to 3 people to accommodate
-											even the largest teams at your company.
+											— pro licenses include access for up to 3 people to accommodate even
+											the largest teams at your company.
 										</p>
 									</div>
 								</div>
