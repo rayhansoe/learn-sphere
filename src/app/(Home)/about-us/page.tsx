@@ -19,9 +19,9 @@ const bitter = Bitter({
 export default async function About() {
 	const team = await getOurTeam();
 	return (
-		<main className="container max-w-4xl flex flex-col bg-slate-50 dark:bg-slate-950">
+		<main className="container flex flex-col bg-slate-50 dark:bg-slate-950">
 			<div
-				className={`${bitter.className} my-10 mt-32 flex flex-col gap-6 sm:flex-row sm:max-w-screen-sm lg:max-w-screen-lg lg:justify-between`}
+				className={`${bitter.className} max-w-4xl mx-auto my-10 mt-32 flex flex-col gap-6 sm:flex-row sm:max-w-screen-sm lg:max-w-screen-lg lg:justify-between`}
 			>
 				<div className="flex flex-col  sm:w-1/3">
 					<h1 className={`${courgette.className} text-5xl`}>Letter</h1>
@@ -29,8 +29,8 @@ export default async function About() {
 				</div>
 				<div className="flex flex-col gap-4  sm:w-4/6">
 					<p className="">
-						Visi Dicoding adalah menjadi platform edukasi teknologi terdepan yang
-						mendorong akses literasi digital yang lebih luas untuk semua. Dicoding
+						Visi LearnSphere adalah menjadi platform edukasi teknologi terdepan yang
+						mendorong akses literasi digital yang lebih luas untuk semua. LearnSphere
 						memiliki misi untuk mengakselerasi transisi Indonesia menuju dunia digital
 						melalui pendidikan teknologi yang mentransformasi kehidupan.
 					</p>
@@ -41,7 +41,7 @@ export default async function About() {
 						dunia digital.
 					</p>
 					<p className="">
-						Dicoding hadir sebagai platform pendidikan teknologi yang membantu
+						LearnSphere hadir sebagai platform pendidikan teknologi yang membantu
 						menghasilkan talenta digital berstandar global. Semua demi mengakselerasi
 						Indonesia agar menjadi yang terdepan.
 					</p>
@@ -49,11 +49,81 @@ export default async function About() {
 			</div>
 
 			{/* Milestone */}
-			<section className="flex flex-col gap-6 my-6 md:my-12 lg:my-16 xl:my-28">
+			<section className="max-w-6xl mx-auto flex flex-col gap-6 my-6 md:my-12 lg:my-16 xl:my-28">
 				<h3 className="text-2xl font-bold leading-dense text-black dark:text-white xl:text-3xl">
 					Milestone
 				</h3>
-				<ol className="items-center sm:flex">
+
+				<ol className="relative border-s border-gray-200 dark:border-gray-700 xl:hidden">
+					<li className="mb-10 ms-6">
+						<span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+							<svg
+								className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="currentColor"
+								viewBox="0 0 20 20"
+							>
+								<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+							</svg>
+						</span>
+						<h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+							Launch LearnSphere
+						</h3>
+						<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+							Released on May 2, 2020
+						</time>
+						<p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+							LearnSphere introduced its groundbreaking online learning platform, providing accessible and interactive educational resources to learners worldwide.
+						</p>
+					</li>
+					<li className="mb-10 ms-6">
+						<span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+							<svg
+								className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="currentColor"
+								viewBox="0 0 20 20"
+							>
+								<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+							</svg>
+						</span>
+						<h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+							Expansion of Learning Ecosystem
+						</h3>
+						<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+							Released on September 23, 2021
+						</time>
+						<p className="text-base font-normal text-gray-500 dark:text-gray-400">
+							LearnSphere expanded its offerings beyond online courses, establishing collaborative learning spaces and launching SkillSphere Academy to cater to diverse learning needs.
+						</p>
+					</li>
+					<li className="ms-6">
+						<span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+							<svg
+								className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="currentColor"
+								viewBox="0 0 20 20"
+							>
+								<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+							</svg>
+						</span>
+						<h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+							Strategic Partnerships and Recognition
+						</h3>
+						<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+							Released on January 5, 2023
+						</time>
+						<p className="text-base font-normal text-gray-500 dark:text-gray-400">
+							LearnSphere forged strategic partnerships with leading educational institutions and technology providers, solidifying its position as a leader in the education sector and earning recognition for its innovative approach to learning.
+						</p>
+					</li>
+				</ol>
+
+				<ol className="hidden items-center xl:flex">
 					<li className="relative mb-6 sm:mb-0">
 						<div className="flex items-center">
 							<div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
@@ -71,13 +141,13 @@ export default async function About() {
 						</div>
 						<div className="mt-3 sm:pe-8">
 							<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-								Flowbite Library v1.0.0
+								Launch LearnSphere
 							</h3>
 							<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-								Released on December 2, 2021
+								Released on May 2, 2020
 							</time>
 							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								Get started with dozens of web components and interactive elements.
+								LearnSphere introduced its groundbreaking online learning platform, providing accessible and interactive educational resources to learners worldwide.
 							</p>
 						</div>
 					</li>
@@ -98,13 +168,13 @@ export default async function About() {
 						</div>
 						<div className="mt-3 sm:pe-8">
 							<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-								Flowbite Library v1.2.0
+								Expansion of Learning Ecosystem
 							</h3>
 							<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-								Released on December 23, 2021
+								Released on September 23, 2021
 							</time>
 							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								Get started with dozens of web components and interactive elements.
+								LearnSphere expanded its offerings beyond online courses, establishing collaborative learning spaces and launching SkillSphere Academy to cater to diverse learning needs.
 							</p>
 						</div>
 					</li>
@@ -125,13 +195,13 @@ export default async function About() {
 						</div>
 						<div className="mt-3 sm:pe-8">
 							<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-								Flowbite Library v1.3.0
+								Strategic Partnerships and Recognition
 							</h3>
 							<time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-								Released on January 5, 2022
+								Released on January 5, 2023
 							</time>
 							<p className="text-base font-normal text-gray-500 dark:text-gray-400">
-								Get started with dozens of web components and interactive elements.
+								LearnSphere forged strategic partnerships with leading educational institutions and technology providers, solidifying its position as a leader in the education sector and earning recognition for its innovative approach to learning.
 							</p>
 						</div>
 					</li>
@@ -139,12 +209,12 @@ export default async function About() {
 			</section>
 
 			{/* Teams */}
-			<section className="safe-paddings my-6 md:my-12 lg:my-16 xl:my-28 ">
+			<section className="max-w-4xl mx-auto my-6 md:my-12 lg:my-16 xl:my-28 ">
 				<h3 className="text-2xl font-bold leading-dense text-black dark:text-white xl:text-3xl">
 					Meet The Team
 				</h3>
 				<p className="mt-6">
-					The LearnSphere team is a dedicated group of experts in education,
+					The Launch LearnSphere team is a dedicated group of experts in education,
 					technology, and innovation. With a shared passion for lifelong learning,
 					our team is committed to empowering individuals and organizations through
 					transformative educational solutions. Led by experienced leaders like CEO
@@ -198,7 +268,7 @@ export default async function About() {
 			</section>
 
 			{/* Cultures */}
-			<section className="flex flex-col gap-6 my-6 md:my-12 lg:my-16 lg:flex-row lg:gap-10 lg:max-h-full xl:my-28">
+			<section className="max-w-4xl mx-auto flex flex-col gap-6 my-6 md:my-12 lg:my-16 lg:flex-row lg:gap-10 lg:max-h-full xl:my-28">
 				<div className="flex flex-col gap-6 lg:w-1/2 lg:order-2">
 					<h3 className="text-2xl font-bold leading-dense text-black dark:text-white xl:text-3xl">
 						Explore our team&apos;s and cultures in Barcelona
