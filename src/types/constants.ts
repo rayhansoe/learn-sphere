@@ -6,16 +6,28 @@ export const AllLinks: IFooterLinks = [
 		href: "/",
 	},
 	{
+		title: "Online Courses",
+		href: "/",
+	},
+	{
+		title: "LearnSphere Academy",
+		href: "/",
+	},
+	{
 		title: "Learning Buddy",
 		href: "/",
 	},
 	{
-		title: "SkillSphere Academy",
-		href: "/skillsphere-academy",
+		title: "Learning Space",
+		href: "/",
+	},
+	{
+		title: "Evaly.io",
+		href: "/",
 	},
 	{
 		title: "About Us",
-		href: "/about",
+		href: "/about-us",
 	},
 	{
 		title: "Our Teams",
