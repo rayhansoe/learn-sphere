@@ -12,7 +12,8 @@ const karla = Karla({
 
 
 export const metadata: Metadata = {
-	title: "Courses"
+	title: "Courses",
+	description: "Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. Scrimba is the fun and easy way to learn web development."
 }
 
 export default function Page() {

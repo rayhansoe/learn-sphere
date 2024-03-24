@@ -5,10 +5,11 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export const metadata: Metadata = {
-	title: "Our Team"
-}
+	title: "Our Team",
+	description:
+		"Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. Scrimba is the fun and easy way to learn web development.",
+};
 
 export default async function Teams() {
 	const team = await getOurTeam();
@@ -45,23 +46,26 @@ export default async function Teams() {
 									<h4 className="text-xl font-semibold">{`${person.name.first} ${person.name.last}`}</h4>
 									<p>Designer</p>
 									<ul>
-										<li key={`${person.name.first} ${person.name.last}`} className="flex gap-2">
+										<li
+											key={`${person.name.first} ${person.name.last}`}
+											className="flex gap-2"
+										>
 											<Button variant="default" size="icon" className="rounded-full">
 												<Link href={`mailto:${person.email}`}>
-												<Mail className="h-5 w-5" />
-												<span className="sr-only">Mail Link</span>
+													<Mail className="h-5 w-5" />
+													<span className="sr-only">Mail Link</span>
 												</Link>
 											</Button>
 											<Button variant="default" size="icon" className="rounded-full">
 												<Link href={`tell:${person.phone}`}>
-												<Phone className="h-5 w-5" />
-												<span className="sr-only">Phone Link</span>
+													<Phone className="h-5 w-5" />
+													<span className="sr-only">Phone Link</span>
 												</Link>
 											</Button>
 											<Button variant="default" size="icon" className="rounded-full">
-												<Link href={`https://github.com/rayhansoe`} target="_blank" >
-												<Github className="h-5 w-5" />
-												<span className="sr-only">Github Link</span>
+												<Link href={`https://github.com/rayhansoe`} target="_blank">
+													<Github className="h-5 w-5" />
+													<span className="sr-only">Github Link</span>
 												</Link>
 											</Button>
 										</li>
