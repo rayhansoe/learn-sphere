@@ -16,7 +16,7 @@ export default function Products() {
 				<h1 className="text-3xl font-bold text-center">Products and Services</h1>
 				<div className="flex flex-wrap gap-8 justify-center lg:gap-8">
 					<Card className="max-w-lg md:max-w-[328px] lg:max-w-sm shadow-md hover:shadow-lg dark:bg-slate-900/70 dark:hover:bg-slate-900">
-						<Link href={"/"}>
+						<Link href={"/courses"}>
 							<CardHeader>
 								<CardTitle className="flex items-center gap-3 justify-between">
 									Online Courses
