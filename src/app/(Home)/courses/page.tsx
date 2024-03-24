@@ -13,7 +13,7 @@ const karla = Karla({
 export const metadata: Metadata = {
 	title: "Courses",
 	description:
-		"Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. Scrimba is the fun and easy way to learn web development.",
+		"Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. LearnSphere is the fun and easy way to learn web development.",
 };
 
 export default function Page() {
@@ -220,7 +220,7 @@ export default function Page() {
 							A modern, career-focused curriculum
 						</h2>
 						<p>
-							The Bootcamp follows Scrimba’s Frontend Developer Career Path. It takes
+							The Bootcamp follows LearnSphere’s Frontend Developer Career Path. It takes
 							an average of 4 to 6 months to complete and earn your certificate.
 						</p>
 						<p>
@@ -253,7 +253,7 @@ export default function Page() {
 						</h2>
 						<p>
 							Micha Rodriguez has many years of experience as a teacher and mentor. She
-							has been helping Scrimba students launch new careers in tech since the
+							has been helping LearnSphere students launch new careers in tech since the
 							bootcamp’s inception, through code reviews, one to one mentoring, and
 							live coding workshops.
 						</p>

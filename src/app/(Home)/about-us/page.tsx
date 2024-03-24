@@ -19,7 +19,7 @@ const bitter = Bitter({
 export const metadata: Metadata = {
 	title: "About Us",
 	description:
-		"Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. Scrimba is the fun and easy way to learn web development.",
+		"Learn to code with interactive scrims. Our courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more. LearnSphere is the fun and easy way to learn web development.",
 };
 
 export default async function About() {
