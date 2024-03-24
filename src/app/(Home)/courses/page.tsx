@@ -25,14 +25,14 @@ export default function Page() {
 					{/* content 1 */}
 					<div className="flex flex-col gap-4 xl:w-1/2 2xl:w-7/12">
 						<div className="inline-block">
-							<Badge className="bg-sky-500 dark:bg-blue-900 dark:text-slate-50 item-start">
+							<Badge className="bg-sky-500 shadow shadow-sky-500 dark:bg-blue-900 dark:shadow-blue-900 dark:text-slate-50 item-start animate-pulse">
 								Frontend Courses
 							</Badge>
 						</div>
 						<h1 className={`${karla.className} inline-block text-5xl font-bold`}>
 							Learn to code and build a career in tech
 						</h1>
-						<p className="inline-block text-slate-100">
+						<p className="inline-block text-slate-600 dark:text-slate-100">
 							Get personalized coding guidance and resolve your queries in one-on-one
 							mentor calls. Benefit from code reviews and access exclusive coding
 							workshops.
