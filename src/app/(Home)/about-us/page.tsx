@@ -216,6 +216,7 @@ export default async function About() {
 				<video
 					src="video.mp4"
 					className="ml-4 mb-4 shadow-avatar dark:shadow-avatar-dark lg:items-start lg:w-1/2 h-min rounded-md"
+					autoPlay
 					muted
 					loop
 				/>
