@@ -61,7 +61,7 @@ export function NavigationMenuDemo() {
 	return (
 		<NavigationMenu className="hidden sm:flex">
 			<NavigationMenuList>
-				<NavigationMenuItem>
+				<NavigationMenuItem key={"products"}>
 					<NavigationMenuTrigger>Products</NavigationMenuTrigger>
 					<NavigationMenuContent>
 						<div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
@@ -102,7 +102,7 @@ export function NavigationMenuDemo() {
 						</div>
 					</NavigationMenuContent>
 				</NavigationMenuItem>
-				<NavigationMenuItem>
+				<NavigationMenuItem  key={"company"}>
 					<NavigationMenuTrigger>Company</NavigationMenuTrigger>
 					<NavigationMenuContent>
 						<div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
@@ -141,13 +141,13 @@ export function NavigationMenuDemo() {
 						</div>
 					</NavigationMenuContent>
 				</NavigationMenuItem>
-				<NavigationMenuItem>
+				{/* <NavigationMenuItem  key={"blog"}>
 					<Link href="/blog" legacyBehavior passHref>
 						<NavigationMenuLink className={navigationMenuTriggerStyle()}>
 							Blog
 						</NavigationMenuLink>
 					</Link>
-				</NavigationMenuItem>
+				</NavigationMenuItem> */}
 			</NavigationMenuList>
 		</NavigationMenu>
 	);
