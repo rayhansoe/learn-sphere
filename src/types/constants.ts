@@ -7,7 +7,7 @@ export const AllLinks: IFooterLinks = [
 	},
 	{
 		title: "Online Courses",
-		href: "/",
+		href: "/courses",
 	},
 	{
 		title: "LearnSphere Academy",
