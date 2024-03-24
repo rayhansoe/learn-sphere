@@ -231,6 +231,7 @@ export default async function About() {
 									width={144}
 									height={144}
 									placeholder="blur"
+									blurDataURL={person.picture.thumbnail}
 									priority
 									alt={`${person.name.first} ${person.name.last}`}
 								/>
