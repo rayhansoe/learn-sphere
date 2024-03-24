@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import YoutubeIframe from "@/components/youtube-iframe";
 import { getOurTeam } from "@/lib/team";
 import { Github, Mail, Phone } from "lucide-react";
 import { Courgette, Bitter } from "next/font/google";
