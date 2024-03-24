@@ -5,6 +5,8 @@ import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
+export const runtime = 'edge' 
+
 export const metadata: Metadata = {
 	title: {
 		template: "%s - LearnSphere",
