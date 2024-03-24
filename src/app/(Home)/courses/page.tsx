@@ -59,7 +59,7 @@ export default function Page() {
 				</section>
 			</main>
 
-			<section className="p-10 py-24 my-10 bg-sky-100 dark:bg-slate-900">
+			<section className="p-10 py-36 bg-sky-100 dark:bg-slate-900">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<Image
 						priority
@@ -82,7 +82,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10">
+			<section className="p-10 py-36">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<div className="flex flex-col gap-6 md:w-1/2">
 						<h2 className="text-4xl font-semibold">
@@ -105,7 +105,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10 bg-amber-100/70 dark:bg-amber-100/10">
+			<section className="p-10 py-36 bg-amber-100/70 dark:bg-amber-100/10">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<Image
 						src="/images/exclusive-projects.webp"
@@ -128,7 +128,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10">
+			<section className="p-10 py-36">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<div className="flex flex-col gap-6 md:w-1/2">
 						<h2 className="text-4xl font-semibold">Get your code reviewed</h2>
@@ -148,7 +148,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10 bg-sky-100 dark:bg-slate-900">
+			<section className="p-10 py-36 bg-sky-100 dark:bg-slate-900">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<Image
 						src="/images/bootcamp-meetings2.webp"
@@ -170,7 +170,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10 ">
+			<section className="p-10 py-36 ">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<div className="flex flex-col gap-6 md:w-1/2">
 						<h2 className="text-4xl font-semibold">Collaborate on group projects</h2>
@@ -190,7 +190,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10 bg-amber-100/70 dark:bg-amber-100/10">
+			<section className="p-10 py-36 bg-amber-100/70 dark:bg-amber-100/10">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<Image
 						src="/images/bootcamp-skills.webp"
@@ -213,7 +213,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10 ">
+			<section className="p-10 py-36 ">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<div className="flex flex-col gap-6 md:w-1/2">
 						<h2 className="text-4xl font-semibold">
@@ -238,7 +238,7 @@ export default function Page() {
 				</div>
 			</section>
 
-			<section className="p-10 py-24 my-10 bg-sky-100 dark:bg-slate-900">
+			<section className="p-10 py-36 bg-sky-100 dark:bg-slate-900">
 				<div className="flex flex-col gap-10 mx-auto max-w-5xl md:flex-row md:justify-between md:items-center">
 					<Image
 						src="/images/micha_avatar_round.webp"
