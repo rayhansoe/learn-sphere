@@ -21,7 +21,7 @@ export default function Products() {
 								<CardTitle className="flex items-center gap-3 justify-between">
 									Online Courses
 									<Badge className="bg-sky-900 shadow shadow-sky-900 dark:bg-blue-300 dark:shadow-blue-900 animate-pulse">
-										New
+										NEW
 									</Badge>
 								</CardTitle>
 							</CardHeader>
@@ -41,7 +41,7 @@ export default function Products() {
 						{/* <Link href={"/"}> */}
 						<CardHeader>
 							<CardTitle className="flex items-center gap-3 justify-between">
-								LearnSphere Academy<Badge className="opacity-40">Soon</Badge>
+								LearnSphere Academy<Badge className="opacity-40">SOON</Badge>
 							</CardTitle>
 						</CardHeader>
 						<CardContent>
@@ -61,7 +61,7 @@ export default function Products() {
 						{/* <Link href={"/"}> */}
 						<CardHeader>
 							<CardTitle className="flex items-center gap-3 justify-between">
-								Learning Buddy<Badge className="opacity-40">Soon</Badge>
+								Learning Buddy<Badge className="opacity-40">SOON</Badge>
 							</CardTitle>
 						</CardHeader>
 						<CardContent>
@@ -81,7 +81,7 @@ export default function Products() {
 						{/* <Link href={"/"}> */}
 						<CardHeader>
 							<CardTitle className="flex items-center gap-3 justify-between">
-								Learning Space<Badge className="opacity-40">Soon</Badge>
+								Learning Space<Badge className="opacity-40">SOON</Badge>
 							</CardTitle>
 						</CardHeader>
 						<CardContent>
@@ -101,7 +101,7 @@ export default function Products() {
 						{/* <Link href={"/"}> */}
 						<CardHeader>
 							<CardTitle className="flex items-center gap-3 justify-between">
-								Evaly.io<Badge className="opacity-40">Soon</Badge>
+								Evaly.io<Badge className="opacity-40">SOON</Badge>
 							</CardTitle>
 						</CardHeader>
 						<CardContent>

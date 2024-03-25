@@ -75,7 +75,7 @@ export function NavigationMenuDemo() {
 											<div className="flex justify-between">
 												<Icons.logo className="h-6 w-6" />
 												<Badge className="w-min bg-sky-900 shadow shadow-sky-900 dark:bg-blue-300 dark:shadow-blue-900 animate-pulse">
-													New
+													NEW
 												</Badge>
 											</div>
 											<h6 className="mb-2 mt-4 text-lg font-medium">Online Courses</h6>
@@ -95,7 +95,7 @@ export function NavigationMenuDemo() {
 									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
 										<>
 											<h6 className="mb-2 text-lg font-medium">
-												LearnSphere Academy<Badge className="opacity-40">soon</Badge>
+												LearnSphere Academy<Badge className="opacity-40">SOON</Badge>
 											</h6>
 											<p className="text-sm leading-tight text-muted-foreground">
 												Beautifully designed components built with Radix UI and Tailwind
@@ -113,7 +113,7 @@ export function NavigationMenuDemo() {
 									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
 										<>
 											<h6 className="mb-2 text-lg font-medium">
-												Learning Buddy <Badge className="opacity-40">soon</Badge>
+												Learning Buddy <Badge className="opacity-40">SOON</Badge>
 											</h6>
 											<p className="text-sm leading-tight text-muted-foreground">
 												Beautifully designed components built with Radix UI and Tailwind
@@ -131,7 +131,7 @@ export function NavigationMenuDemo() {
 									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
 										<>
 											<h6 className="mb-2 text-lg font-medium">
-												Learning Space <Badge className="opacity-40">soon</Badge>
+												Learning Space <Badge className="opacity-40">SOON</Badge>
 											</h6>
 											<p className="text-sm leading-tight text-muted-foreground">
 												Beautifully designed components built with Radix UI and Tailwind
@@ -149,7 +149,7 @@ export function NavigationMenuDemo() {
 									<NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
 										<>
 											<h6 className="mb-2 text-lg font-medium">
-												Evaly.io <Badge className="opacity-40">soon</Badge>
+												Evaly.io <Badge className="opacity-40">SOON</Badge>
 											</h6>
 											<p className="text-sm leading-tight text-muted-foreground">
 												Beautifully designed components built with Radix UI and Tailwind
